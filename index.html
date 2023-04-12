@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 3, día 1: Rebound Excercise</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/1872a23027.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a la plataform <em>Eport</em></h1>
+      <p>
+        Aquí podrá encontrar la información de vuelos más recientes en nuestro
+        aeropuerto
+      </p>
+    </header>
+
+    <main>
+      <div class="grid">
+        <section class="time">
+          <h2>Hora:</h2>
+          <p id="timeDisplay">00:00</p>
+        </section>
+
+        <section class="date">
+          <h2>Fecha:</h2>
+          <p id="dateDisplay">00-00-0000</p>
+        </section>
+      </div>
+
+      <section class="flight">
+        <h2>El vuelo más próximo:</h2>
+        <p>Código de vuelo: <span id="flightCode">LA-1274</span></p>
+        <p>Terminal: <span id="terminalGate">4</span></p>
+      </section>
+    </main>
+    <!-- SCRIPTS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
